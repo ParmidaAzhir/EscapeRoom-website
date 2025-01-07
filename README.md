@@ -1,1 +1,5 @@
-# EscapeRoom-website
+The EscapeRoom Interactive Website is a dynamic, full-stack platform designed to offer an interactive environment for both players and administrators. Players can explore, join, and manage their escape room adventures online, while administrators have full control over reservations and user details through a secure dashboard. The backend is powered by PHP and MySQL, providing a robust system, while Docker is utilized to containerize the application for easy deployment across multiple environments.
+
+The frontend is crafted using HTML, CSS, and JavaScript to deliver a responsive, engaging, and easy-to-navigate user interface that enhances the experience. Key features include real-time booking functionality, a secure login system for both players and admins, and an admin panel for managing user activity, bookings, and user details.
+
+With its scalable architecture, the EscapeRoom platform streamlines operations and provides an enjoyable and interactive experience for users, ensuring both players and administrators have everything they need at their fingertips. Whether you’re planning an event or just playing, EscapeRoom makes it easier to deliver unforgettable adventures.
