@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+:root {
+    --red: #fe4c00;
+    --black: #444;
+    --light-color: #777;
+    --box-shadow: .5rem .5rem 0 rgba(152, 73, 73, 0.2);
+    --border: .2rem solid var(--red);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background: #feeaea;
+    padding: 1rem 4rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-bottom: 2px solid var(--red);
+}
+
+header h1 {
+    font-size: 3rem;
+    color: var(--red);
+}
+
+header nav a {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: var(--red);
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #f9c5c5;
+    color: var(--black);
+    line-height: 1.6;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--red);
+}
+
+.user-Account {
+    width:100%;
+    max-width: 800px;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+.user-Account:hover {
+transform: translateY(-10px); /*move upwards by 10 pixels*/
+box-shadow: var(--box-shadow);
+}
+
+.user-Account h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--light-color);
+    text-align: center;
+}
+
+.Account-section {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    margin-bottom: 2rem;
+    border: var(--border);
+}
+.Account-section:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow);
+}
+
+.Account-section h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color:  var(--red);
+}
+
+.Account-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Account-section label {
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+    color: #555;
+}
+
+.Account-section input[type="text"],
+.Account-section input[type="email"],
+.Account-section input[type="password"],
+.Account-section input[type="tel"],
+.Account-section textarea {
+    padding: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    width: 100%;
+    background: #f9f9f9;
+}
+
+.Account-section .btn {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background: var(--red);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.Account-section .btn:hover {
+    background: #ffffff;
+    color:var(--red)
+} 
